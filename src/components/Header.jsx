@@ -10,8 +10,11 @@ const Header = () => {
                  <RiCheckboxBlankCircleFill className='absolute -left-3 -bottom-3 text-primary -z-10'/> 
             </span>
         </div>
-        <nav className='bg-red-500 flex-1'>
-            <nav>Nav</nav>
+        <nav className='flex-1 flex items-center justify-center sm:gap-20'>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Products</a>
         </nav>
     </header>
     
