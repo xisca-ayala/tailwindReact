@@ -27,7 +27,7 @@ const Hero = ({title}) => {
 
   return (
     <section className='h-[90vh] grid grid-cols-1 md:grid-cols-8'>
-      <div className=' md:col-span-5 flex items-center justify-center p-6'>
+      <div className=' md:col-span-5 flex items-center justify-center p-6 2xl:px-40'>
         <div className='p-12'>
           <h1 className='text-7xl font-bold leading-[6.5rem]'>We Design Impactful Digital {""}
             <span className='text-primary border-8 border-primary relative py-2 px-6'>Products
@@ -43,7 +43,7 @@ const Hero = ({title}) => {
             
           </h1>
           <div className='pt-6'>
-            <span className='ml-4 mt-2'>{she.name}</span>
+            <span className='ml-4 mt-2'>Hello {she.name}...</span>
             <span className='ml-4'> {title} </span>
           </div>
           <div className='pt-6 p-3'>

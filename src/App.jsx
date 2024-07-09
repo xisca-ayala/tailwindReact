@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="">
       <Header />
-      <Hero title='Hello World' />
+      <Hero title='We are working for you!' />
     </div>
 
 
