@@ -30,7 +30,7 @@ const Hero = ({title}) => {
     <section className='h-[90vh] grid grid-cols-1 md:grid-cols-8'>
       <div className=' md:col-span-5 flex items-center justify-center p-6 2xl:px-40'>
         <div className='p-12'>
-          <h1 className='text-3xl leading-[6.5rem] md:text-7xl font-bold md:leading-[8rem]'>We Design Impactful Digital {""}
+          <h1 className='text-3xl leading-[6.5rem] lg:text-7xl font-bold lg:leading-[8rem]'>We Design Impactful Digital {""}
             <span className='text-primary border-8 border-primary relative py-2 px-6'>Products
               <FaCircle className='text-white text-base bg-primary rounded-full box-content 
               absolute -top-5 -left-5 p-2 '/>
