@@ -27,7 +27,7 @@ const Hero = ({title}) => {
     const {contador, incrementar, disminuir} = useContador(); 
 
   return (
-    <section className='h-[90vh] grid grid-cols-1 md:grid-cols-8'>
+    <section className='min-h-[90vh] grid grid-cols-1 md:grid-cols-8 p-4'>
       <div className=' md:col-span-5 flex items-center justify-center p-6 2xl:px-40'>
         <div className='p-12'>
           <h1 className='text-3xl leading-[6.5rem] lg:text-7xl font-bold lg:leading-[8rem]'>We Design Impactful Digital {""}
